@@ -3,7 +3,7 @@
   margin: 60px 0;
 }
 .c-btn {
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   position: relative;
   display: inline-block;
@@ -22,7 +22,7 @@
 }
 .c-btn--big-line:after {
   content: attr(data-hover-name);
-  color: #ffffff;
+  color: #000;
   height: 100%;
   width: 100%;
   top: 0;
@@ -41,7 +41,7 @@
   height: 100%;
   width: 100%;
   top: 0;
-  background-color: #000;
+  background-color: #fff;
   -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   transition: -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
